@@ -10,6 +10,11 @@ h1 {
   font-weight: bold;
 }
 
+h3 {
+  font-family: 'Roboto-Bold', sans-serif;
+  font-weight: bold;
+}
+
 /* main section */
 #main {
   background-color: rgb(215, 54, 61);
@@ -55,4 +60,30 @@ h1 {
 
 .contact-button:hover {
   transform: scale(1.05) perspective(1px);
+}
+
+/* features section  */
+#features {
+  background-color: #fff;
+  padding: 7% 15%;
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;
+}
+
+.feature-icon {
+  margin-top: 5%;
+  padding-bottom: 4.5%;
+  color: #D7363D;
+}
+
+.feature-icon:hover {
+  color: rgb(255, 204, 3);
+}
+
+.feature-box p {
+  font-family: 'Roboto-Medium', sans-serif;
+  font-weight: bolder;
 }
