@@ -1,3 +1,4 @@
+@import "map.css";
 /* whole page*/
 body {
   font-family: 'Roboto-Medium', sans-serif;
@@ -139,6 +140,9 @@ h6 {
   padding: 7% 15%;
   position: relative;
 }
+
+
+
 
 
 /* call for action section */
