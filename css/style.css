@@ -4,10 +4,18 @@ body {
 }
 
 h1 {
-  font-family: 'Roboto-Medium', sans-serif;
+  font-family: '', sans-serif;
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: bold;
+}
+
+h2 {
+  font-family: 'Roboto-Medium';
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+  padding-top: 7%;
 }
 
 h3 {
@@ -86,4 +94,20 @@ h3 {
 .feature-box p {
   font-family: 'Roboto-Medium', sans-serif;
   font-weight: bolder;
+}
+
+
+/* testimonial section */
+
+#testimonials {
+  text-align: center;
+  background-color:#D7363D;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 7%;
+  height: 7%;
+  border-radius: 100%;
+  margin: 4% 2%;
 }
