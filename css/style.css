@@ -24,7 +24,7 @@ h3 {
 }
 
 h4,
-h5 {
+h6 {
   font-family: 'Roboto-Medium', sans-serif;
 }
 
@@ -163,6 +163,35 @@ h5 {
 
 
 /* footer */
+.adress{
+  text-align: left;
+}
+
+.footer-img img {
+  padding-top:1.7%;
+  width: 100%;
+  height: 100%;
+}
+
+footer h4 {
+  padding-top:4%;
+}
+
+.social-media {
+  padding-top:2%;
+}
+
+.sm-icon {
+  margin-right: 5%;
+}
+.fa-facebook-square{
+  color: #4267B2;
+}
+
+.fa-whatsapp-square{
+  color: #25D366;
+
+}
 .copyright{
   text-align: center;
   padding-top: 5%;
