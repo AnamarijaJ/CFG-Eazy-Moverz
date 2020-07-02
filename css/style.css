@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-  font-family: '', sans-serif;
+  font-family: 'Roboto-Bold', sans-serif;
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: bold;
@@ -21,7 +21,10 @@ h2 {
 h3 {
   font-family: 'Roboto-Bold', sans-serif;
   font-weight: bold;
+
 }
+
+
 
 /* main section */
 #main {
@@ -70,9 +73,11 @@ h3 {
   transform: scale(1.05) perspective(1px);
 }
 
+
+
 /* features section  */
 #features {
-  background-color: #fff;
+  background-color: #FFF;
   padding: 7% 15%;
   position: relative;
 }
@@ -102,7 +107,7 @@ h3 {
 #testimonials {
   text-align: center;
   background-color:#D7363D;
-  color: #fff;
+  color: #FFF;
 }
 
 .carousel-inner {
@@ -110,7 +115,7 @@ h3 {
 }
 
 .carousel-item p {
-  font-family: 'Roboto';
+  font-family: 'Roboto-Medium';
   font-size: 2.8rem;
   font-weight: bold;
 
@@ -121,4 +126,32 @@ h3 {
   height: 7%;
   border-radius: 100%;
   margin: 4% 2%;
+}
+
+
+/* local business section  */
+#local-business{
+  background-color: #FFF;
+  padding: 7% 15%;
+  position: relative;
+}
+
+
+/* call for action section */
+#call-for-action{
+  background-color:#D7363D;
+  color:#FFF;
+  padding: 5% 15%;
+  position: relative;
+  text-align: center;
+}
+
+.form-button{
+  background-color: #B3FF03;
+  font-weight: bold;
+  margin: 5% 3% 5% 0;
+}
+
+.form-button:hover {
+  transform: scale(1.05) perspective(1px);
 }
