@@ -105,6 +105,17 @@ h3 {
   color: #fff;
 }
 
+.carousel-inner {
+  padding-top: 5%;
+}
+
+.carousel-item p {
+  font-family: 'Roboto';
+  font-size: 2.8rem;
+  font-weight: bold;
+
+}
+
 .testimonial-image {
   width: 7%;
   height: 7%;
