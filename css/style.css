@@ -37,6 +37,10 @@ h6 {
   color: rgb(255, 255, 255);
 }
 
+nav {
+  background-color: rgb(215, 54, 61);
+}
+
 .container-fluid {
   padding: 2% 15% 5%;
 }
