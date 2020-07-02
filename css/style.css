@@ -21,7 +21,11 @@ h2 {
 h3 {
   font-family: 'Roboto-Bold', sans-serif;
   font-weight: bold;
+}
 
+h4,
+h5 {
+  font-family: 'Roboto-Medium', sans-serif;
 }
 
 
@@ -154,4 +158,12 @@ h3 {
 
 .form-button:hover {
   transform: scale(1.05) perspective(1px);
+}
+
+
+
+/* footer */
+.copyright{
+  text-align: center;
+  padding-top: 5%;
 }
