@@ -148,6 +148,21 @@ nav {
   text-align: center;
 }
 
+.typing-effect{
+  display: flex;
+}
+
+.typing{
+  position: relative;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.typing::after{
+  content:"";
+  position: absolute;
+}
+
 .form-button {
   background-color: #B3FF03;
   font-weight: bold;
