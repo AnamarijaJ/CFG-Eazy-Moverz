@@ -1,4 +1,4 @@
-// scroll to the top button
+// smooth scroll to the top button
 
 const scrollToTheTopBtn = document.getElementById("back-to-the-top-btn");
 
