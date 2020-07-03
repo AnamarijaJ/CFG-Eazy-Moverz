@@ -110,6 +110,7 @@ nav {
 
 /* testimonial section */
 #testimonials {
+  font-family: 'Roboto-Medium';
   text-align: center;
   background-color: #D7363D;
   color: #FFF;
@@ -120,7 +121,7 @@ nav {
 }
 
 .carousel-item p {
-  font-family: 'Roboto-Medium';
+  font-family: 'Roboto';
   font-size: 2.8rem;
   font-weight: bold;
 }
@@ -141,6 +142,7 @@ nav {
 
 /* call for action section */
 #call-for-action {
+
   background-color: #D7363D;
   color: #FFF;
   padding: 5% 15%;
@@ -150,9 +152,16 @@ nav {
 
 .typing-effect{
   display: flex;
+
 }
 
+.typing-effect h2 {
+  font-family: 'Roboto';
+}
+
+
 .typing{
+  font-family: 'Roboto';
   position: relative;
   margin-left: 10px;
   text-align: center;
