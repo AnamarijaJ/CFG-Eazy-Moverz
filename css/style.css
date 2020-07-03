@@ -1,5 +1,6 @@
 @import "map.css";
 @import "back-to-the-top-btn.css";
+
 /* whole page*/
 body {
   font-family: 'Roboto-Medium', sans-serif;
@@ -29,8 +30,6 @@ h4,
 h6 {
   font-family: 'Roboto-Medium', sans-serif;
 }
-
-
 
 /* main section */
 #main {
@@ -83,8 +82,6 @@ nav {
   transform: scale(1.05) perspective(1px);
 }
 
-
-
 /* features section  */
 #features {
   background-color: #FFF;
@@ -111,12 +108,10 @@ nav {
   font-weight: bolder;
 }
 
-
 /* testimonial section */
-
 #testimonials {
   text-align: center;
-  background-color:#D7363D;
+  background-color: #D7363D;
   color: #FFF;
 }
 
@@ -128,7 +123,6 @@ nav {
   font-family: 'Roboto-Medium';
   font-size: 2.8rem;
   font-weight: bold;
-
 }
 
 .testimonial-image {
@@ -138,28 +132,23 @@ nav {
   margin: 4% 2%;
 }
 
-
 /* local business section  */
-#local-business{
+#local-business {
   background-color: #FFF;
   padding: 7% 15%;
   position: relative;
 }
 
-
-
-
-
 /* call for action section */
-#call-for-action{
-  background-color:#D7363D;
-  color:#FFF;
+#call-for-action {
+  background-color: #D7363D;
+  color: #FFF;
   padding: 5% 15%;
   position: relative;
   text-align: center;
 }
 
-.form-button{
+.form-button {
   background-color: #B3FF03;
   font-weight: bold;
   margin: 5% 3% 5% 0;
@@ -169,39 +158,38 @@ nav {
   transform: scale(1.05) perspective(1px);
 }
 
-
-
 /* footer */
-.adress{
+.adress {
   text-align: left;
 }
 
 .footer-img img {
-  padding-top:1.7%;
+  padding-top: 1.7%;
   width: 100%;
   height: 100%;
 }
 
 footer h4 {
-  padding-top:4%;
+  padding-top: 4%;
 }
 
 .social-media {
-  padding-top:2%;
+  padding-top: 2%;
 }
 
 .sm-icon {
   margin-right: 5%;
 }
-.fa-facebook-square{
+
+.fa-facebook-square {
   color: #4267B2;
 }
 
-.fa-whatsapp-square{
+.fa-whatsapp-square {
   color: #25D366;
-
 }
-.copyright{
+
+.copyright {
   text-align: center;
   padding-top: 5%;
 }

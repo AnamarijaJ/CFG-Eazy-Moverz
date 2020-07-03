@@ -1,1 +1,15 @@
+#back-to-the-top-btn {
+  position: fixed;
+  right: 9px;
+  bottom: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(255, 204, 3);
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+}
 
+#back-to-the-top-btn:hover {
+  background-color: #B3FF03;
+}
