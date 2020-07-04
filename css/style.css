@@ -142,7 +142,6 @@ nav {
 
 /* call for action section */
 #call-for-action {
-
   background-color: #D7363D;
   color: #FFF;
   padding: 5% 15%;
@@ -152,7 +151,15 @@ nav {
 
 .typing-effect{
   display: flex;
+  flex-direction: row;
 
+}
+@media screen and (max-width: 767px) {
+  .typing-effect {
+    display: flex;
+    flex-direction: column;
+
+  }
 }
 
 .typing-effect h2 {
