@@ -64,6 +64,10 @@ nav {
   background-color: rgb(215, 54, 61);
 }
 
+.dropdown-item:hover{
+  background-color: #E08E8E;
+}
+
 .main-text {
   padding-top: 2.3%;
 }
