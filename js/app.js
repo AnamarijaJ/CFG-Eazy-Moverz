@@ -14,25 +14,25 @@ scrollToTheTopBtn.addEventListener("click", function() {
 
 // typing effect
 
-const texts = ["moving", "cleaning", "landscaping" ];
+const texts = ["moving", "cleaning", "landscaping"];
 let count = 0;
 let index = 0;
 let currentText = "";
 let letter = "";
 
-(function type(){
+(function type() {
 
-  if (count === texts.length){
+  if (count === texts.length) {
     count = 0;
   }
 
   currentText = texts[count];
   letter = currentText.slice(0, ++index);
 
-  document.querySelector(".typing").textContent=letter;
-  if(letter.length === currentText.length){
+  document.querySelector(".typing").textContent = letter;
+  if (letter.length === currentText.length) {
     count++;
-    index=0;
+    index = 0;
   }
   setTimeout(type, 150);
-} ());
+}());
