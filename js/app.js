@@ -14,7 +14,7 @@ scrollToTheTopBtn.addEventListener("click", function() {
 
 // typing effect
 
-const texts = ["ready to move", "cleaning", "landscaping" ];
+const texts = ["moving", "cleaning", "landscaping" ];
 let count = 0;
 let index = 0;
 let currentText = "";
