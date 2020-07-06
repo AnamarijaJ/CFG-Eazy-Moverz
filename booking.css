@@ -1,0 +1,118 @@
+
+.body {
+  color: white;
+}
+
+h2 {
+  font-family: 'Roboto-Bold', sans-serif;
+  font-size: x-large;
+  font-weight: bold;
+  color: white;
+  line-height: 5.0;
+  padding-top: -30%;
+
+}
+
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+    color: black;
+    font-family: 'Roboto-Bold', sans-serif;
+      }
+
+  li {
+    display: inline;
+    padding: 30px;
+    color: black;
+  }
+
+.paragraph {
+  color: white;
+  top: -40px;
+}
+
+
+.list {
+  color: white;
+  font-family: 'Roboto-Bold', sans-serif;
+}
+
+main {
+  background-color: rgb(215, 54, 61);
+  color: rgb(255, 255, 255);
+}
+
+
+.navbar {
+  font-family: 'Roboto-Bold', sans-serif;
+  color: white;
+}
+
+.navbar-brand {
+  font-family: 'Roboto-Bold', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+
+.button {
+  background-color:black; 
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 24px;
+  width: 50;
+  height: 50px;
+  font-family: 'Roboto-Bold', sans-serif;
+  text-align: center;
+  position: absolute;
+  left: 500px;
+  top: 520px;
+  
+}
+
+
+.nav-item {
+  font-size: 1.3rem;
+  padding: 0 15px;
+  color: white;
+}
+
+.dropdown-menu {
+  background-color: rgb(215, 54, 61);
+}
+.adress {
+  text-align: left;
+}
+
+.footer-img {
+  padding-top:1.7%;
+  width: 50%;
+  height: 50%;
+}
+
+footer h4 {
+  padding-top:4%;
+}
+
+.social-media {
+  padding-top:2%;
+}
+
+.sm-icon {
+  margin-right: 5%;
+}
+.fa-facebook-square{
+  color: #4267B2;
+}
+
+.fa-whatsapp-square{
+  color: #25D366;
+
+}
+.copyright{
+  text-align: center;
+  padding-top: 5%;
+}
