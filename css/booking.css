@@ -16,14 +16,14 @@ h2 {
   margin: 0;
   padding: 0;
   flex-direction: row;
-  color: black;
+  color: white;
   font-family: 'Roboto-Bold', sans-serif;
 }
 
 li {
   display: inline;
   padding: 30px;
-  color: black;
+  color: white;
 }
 
 .paragraph {
