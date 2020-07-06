@@ -1,0 +1,124 @@
+
+
+    #container {
+    width: 800px;
+    height: 900px;
+    background-image: url(./CrownEazyMoverz.png);
+    background-size: 800px 800px;
+    background-repeat: no-repeat;
+    margin-left: 500vw;
+    margin-top: 250vh;
+    
+}
+
+
+.splash {
+    position: fixed;
+    background-image: url(./CrownEazyMoverz.png);
+
+    background-size: 300px;
+    background-repeat: no-repeat;
+    top: 150px;
+    left: 550px;
+    width: 70%;
+    height: 70%;
+    opacity: 0;
+    z-index: 200;
+    animation: fadeIn 1s ease-in forwards;
+ 
+   
+}
+
+.splash.display-none {
+    position: fixed;
+    opacity: 0;
+    background-image: url(./CrownEazyMoverz.png);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    top: 180px;
+    left: 550px;
+    width: 70%;
+    height: 70%;
+    opacity: 0;
+    z-index: -10;
+    animation: fadeIn 5s ease-in forwards;
+    transition: all 1s;
+ 
+   
+}
+.myButton {
+	background:linear-gradient(to bottom, #ff3838 5%, #ffffff 100%);
+	background-color:#ff3838;
+	border-radius:39px;
+	display:inline-block;
+	cursor:pointer;
+	color:#0a000a;
+	font-family:'Montserrat', sans-serif;
+	font-size:17px;
+	padding:18px 31px;
+	text-decoration:none;
+    text-shadow:0px 1px 46px #2f6627;
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 560px;
+    opacity: 0;
+    animation: fadeIn 5s ease-in forwards;
+    z-index: 200;
+   
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #ffffff 5%, #ff3838 100%);
+	background-color:#ffffff;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.myButton.display-none {
+	background:linear-gradient(to bottom, #ff3838 5%, #ffffff 100%);
+	background-color:#ff3838;
+	border-radius:39px;
+	display:inline-block;
+	cursor:pointer;
+	color:#0a000a;
+	font-family:'Montserrat', sans-serif;
+	font-size:17px;
+	padding:18px 31px;
+	text-decoration:none;
+    text-shadow:5px 1px 46px #2f6627;
+    position: absolute;
+    opacity: 0;
+    margin-top: 520px;
+    margin-left: 570px;
+    animation: fadeIn 1s ease-in forwards;
+    z-index: -10;
+  
+}
+
+
+@keyframes fadeIn{
+    to{
+        opacity: 1;
+    }
+}
+.splash.fadeIn{
+    opacity: 0;
+    animation: fadeIn 1s ease-in forwards;
+}
+
+.myButton.fadeIn{
+    opacity: 0;
+    animation: fadeIn 2s ease-in forwards;
+}
+
+
+
+body {
+    background-image: linear-gradient(to right , #cb2d3e , #ef473a);
+}
+
+
+
+
+  
