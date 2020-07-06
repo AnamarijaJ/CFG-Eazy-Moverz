@@ -31,6 +31,15 @@ h6 {
   font-family: 'Roboto-Medium', sans-serif;
 }
 
+button a {
+  color: #000;
+}
+
+button a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
 /* main section */
 #main {
   background-color: rgb(215, 54, 61);
