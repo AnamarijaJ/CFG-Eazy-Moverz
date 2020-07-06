@@ -2,6 +2,10 @@
 @import "back-to-the-top-btn.css";
 
 /* whole page*/
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Roboto-Medium', sans-serif;
 }
