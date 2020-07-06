@@ -4,7 +4,7 @@
     #container {
         width: 800px;
         height: 900px;
-        background-image: url(images/CrownEazyMoverz.png);
+        background-image: url("images/CrownEazyMoverz.png");
         background-size: 800px 800px;
         background-repeat: no-repeat;
         margin-left: 500vw;
@@ -15,7 +15,7 @@
     
     .splash {
         position: fixed;
-        background-image: url(images/CrownEazyMoverz.png);
+        background-image: url("images/CrownEazyMoverz.png");
     
         background-size: 300px;
         background-repeat: no-repeat;
@@ -33,7 +33,7 @@
     .splash.display-none {
         position: fixed;
         opacity: 0;
-        background-image: url(images/CrownEazyMoverz.png);
+        background-image: url("images/CrownEazyMoverz.png");
         background-size: 300px;
         background-repeat: no-repeat;
         top: 180px;
