@@ -1,7 +1,3 @@
-.body {
-  color: yellow;
-}
-
 h2 {
   font-family: 'Roboto-Bold', sans-serif;
   font-size: x-large;
@@ -9,6 +5,10 @@ h2 {
   color: white;
   line-height: 5.0;
   padding-top: -30%;
+}
+
+nav {
+  background-color: rgb(215, 54, 61);
 }
 
 .ul {
@@ -36,9 +36,8 @@ li {
   font-family: 'Roboto-Bold', sans-serif;
 }
 
-main {
+body {
   background-color: rgb(215, 54, 61);
-  color: rgb(255, 255, 255);
 }
 
 .navbar {
@@ -91,8 +90,18 @@ main {
   height: 50%;
 }
 
+footer {
+  padding-top: 12%;
+}
+
 footer h4 {
   padding-top: 4%;
+}
+
+.footer-img img {
+  padding-top: 1.7%;
+  width: 100%;
+  height: 100%;
 }
 
 .social-media {

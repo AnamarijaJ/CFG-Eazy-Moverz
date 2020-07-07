@@ -12,106 +12,117 @@
 </head>
 
 
-<main>
-  <body>
-    <div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 main-text">
+<body>
+  <div>
+    <div class="container">
+      <div class="row">
+
+        <div class="container-fluid">
+          <!-- navbar -->
+          <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="landing.html">Eazy Moverz</a>
+            <!-- collapsable button  -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- colapsable ul -->
+            <div class="collapse navbar-collapse" id="navbarToggler">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="landing.html#testimonials">Reviews</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="booking.html">Booking</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Services
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Moving</a>
+                    <a class="dropdown-item" href="#">Landscaping</a>
+                    <a class="dropdown-item" href="#">Cleaning</a>
+                    <a class="dropdown-item" href="#">Renovation</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+
+          <!-- BOOKING -->
+          <div>
+            <h2>Bookings</h2>
           </div>
-          <div class="container-fluid">
-            <!-- navbar -->
-            <nav class="navbar navbar-expand-lg navbar-dark">
-              <a class="navbar-brand" href="landing.html">Eazy Moverz</a>
-              <!-- collapsable button  -->
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <!-- colapsable ul -->
-              <div class="collapse navbar-collapse" id="navbarToggler">
-                <ul class="navbar-nav ml-auto">
-                  <li class="nav-item">
-                    <a class="nav-link" href="landing.html#testimonials">Reviews</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="booking.html">Booking</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Services
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="#">Moving</a>
-                      <a class="dropdown-item" href="#">Landscaping</a>
-                      <a class="dropdown-item" href="#">Cleaning</a>
-                      <a class="dropdown-item" href="#">Renovation</a>
-                    </div>
-                  </li>
-                </ul>
+          <div class=paragraph <p1>Welcome to our booking page. Please fill out the boxes below in order to make an inquiry. We will contact you as soon as possible to discuss pricing and service you require.</p1><br>
+          </div>
+
+
+          <div class=list <form action="/action_page.php" method="get" id="form1">
+            <label for="fname">First Name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last Name:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email"><br>
+            <label for="service">Service Needed:</label><br>
+            <input type="text" id="sneeded" name="sneeded"><br>
+            <label for="date">Date:</label><br>
+            <input type="text" id="date" name="date"><br>
+          </div>
+          </form>
+          <div class=button <button type="submit" form="form1" value="Submit">Submit</button>
+          </div>
+
+
+
+
+          <footer>
+            <div class="container">
+              <div class="row">
+                <div class="footer-img col-lg-3 ">
+                  <img src="images/eazy-footer.jpg" alt="company's logo" />
+                </div>
+
+                <!-- adress -->
+                <div class="adress col-lg-6 ">
+                  <h4>
+                    Eazy Moverz <br /> <br />
+                    30-26 Goede Hoop St, <br />
+                    Bothasig, Cape Town, 7441, <br />
+                    South Africa
+                  </h4>
+                </div>
+
+                <!-- social media -->
+                <div class="social-media col-lg-3">
+                  <a href="https://www.facebook.com/EazyMoverz" "><i class=" fab fa-facebook-square fa-2x sm-icon"></i>Like our page</a> <br>
+                  <a href="https://web.whatsapp.com/"><i class="fab fa-whatsapp-square fa-2x sm-icon"></i>Message us +27 65 843 1965</a>
+
+                </div>
+                <!-- copyright -->
+                <div class="copyright col-lg-12">
+                  <h6>2020 ©Code First Girls</h6>
+                </div>
               </div>
-            </nav>
-            <div>
-              <h2>Bookings</h2>
             </div>
-            <div class=paragraph <p1>Welcome to our booking page. Please fill out the boxes below in order to make an inquiry. We will contact you as soon as possible to discuss pricing and service you require.</p1><br>
-            </div>
+          </footer>
 
+          <!-- JS, Popper.js, and jQuery -->
 
-            <div class=list <form action="/action_page.php" method="get" id="form1">
-              <label for="fname">First Name:</label><br>
-              <input type="text" id="fname" name="fname"><br>
-              <label for="lname">Last Name:</label><br>
-              <input type="text" id="lname" name="lname"><br>
-              <label for="email">Email:</label><br>
-              <input type="text" id="email" name="email"><br>
-              <label for="service">Service Needed:</label><br>
-              <input type="text" id="sneeded" name="sneeded"><br>
-              <label for="date">Date:</label><br>
-              <input type="text" id="date" name="date"><br>
-            </div>
-            </form>
-            <div class=button <button type="submit" form="form1" value="Submit">Submit</button>
-            </div>
+          <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
-
-</main>
+          <!-- my JS -->
+          <script src="js/form.js"></script>
 </body>
 
 
 
-<footer>
-  <div class="container">
-    <div class="row">
-      <div class="footer-img col-lg-3 ">
-        <img src="WEBSITE/logo.jpeg" alt="company's logo" />
-      </div>
 
-      <!-- adress -->
-      <div class="adress col-lg-6 ">
-        <h4>
-          Eazy Moverz <br /> <br />
-          30-26 Goede Hoop St, <br />
-          Bothasig, Cape Town, 7441, <br />
-          South Africa
-        </h4>
-      </div>
-
-      <!-- social media -->
-      <div class="social-media col-lg-3">
-        <a href="#" "><i class=" fab fa-facebook-square fa-2x sm-icon"></i>Like our page</a> <br>
-        <a href=""><i class="fab fa-whatsapp-square fa-2x sm-icon"></i>Send a message +27 65 843 1965</a>
-
-      </div>
-
-      <!-- copyright -->
-      <div class="copyright col-lg-12">
-        <h6>2020 ©Code First Girls</h6>
-      </div>
-    </div>
-  </div>
-</footer>
 
 </html>
