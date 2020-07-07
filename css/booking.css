@@ -31,29 +31,6 @@ li {
   top: -40px;
 }
 
-input[type=email] {
-  width: 25%;
-  box-sizing: border-box;
-  height: 25%;
-  border: 5px;
-  top: 300px;
-}
-
-input[type=Service] {
-  width: 25%;
-  box-sizing: border-box;
-  height: 25%;
-  border: 5px;
-}
-
-input[type=date] {
-  width: 25%;
-  box-sizing: border-box;
-  height: 25%;
-  border: 5px;
-}
-
-
 
 body {
   background-color: rgb(215, 54, 61);
