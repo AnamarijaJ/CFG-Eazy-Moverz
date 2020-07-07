@@ -223,6 +223,15 @@ footer h4 {
   padding-top: 2%;
 }
 
+.social-media a {
+  color: #000;
+}
+
+.social-media a:hover {
+  text-decoration: none;
+  color: blue;
+}
+
 .sm-icon {
   margin-right: 5%;
 }
