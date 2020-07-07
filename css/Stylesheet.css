@@ -82,8 +82,8 @@
   text-shadow: 5px 1px 46px #2f6627;
   position: absolute;
   opacity: 0;
-  margin-top: 560px;
-  margin-left: 570px;
+  margin-top: 500px;
+  margin-left: 470px;
   animation: fadeIn 1s ease-in forwards;
   z-index: -10;
 }
