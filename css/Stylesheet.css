@@ -22,6 +22,10 @@
   animation: fadeIn 1s ease-in forwards;
 }
 
+a{
+  background-size: 200px 200px;
+}
+
 .splash.display-none {
   position: fixed;
   opacity: 0;
