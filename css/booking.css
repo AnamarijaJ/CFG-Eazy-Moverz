@@ -31,14 +31,10 @@ li {
   top: -40px;
 }
 
-.myForm {
-width: 10%;
-padding: 12px 10px;
-margin: 8px 0;
-display: inline-block;
-border: 1px solid #ccc;
-border-radius: 4px;
-box-sizing: border-box;
+input[type=text] {
+  width: 10%;
+  box-sizing: border-box;
+}
 
 body {
   background-color: rgb(215, 54, 61);
