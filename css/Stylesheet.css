@@ -9,7 +9,7 @@
 }
 
 .splash {
-  position: absoloute;
+  position: fixed;
   background-image: <img src="images/CrownEazyMoverz.png"  alt="description">;  
   background-size: 150px;
   background-repeat: no-repeat;
