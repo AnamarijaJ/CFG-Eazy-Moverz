@@ -31,12 +31,14 @@ li {
   top: -40px;
 }
 
-.MyForm {
-  width: 10%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
+.myForm {
+width: 10%;
+padding: 12px 10px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
 
 body {
   background-color: rgb(215, 54, 61);
