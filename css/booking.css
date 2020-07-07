@@ -31,7 +31,7 @@ li {
   top: -40px;
 }
 
-input[type=text] {
+input[type=name] {
   width: 25%;
   box-sizing: border-box;
   height: 25%;
