@@ -31,9 +31,11 @@ li {
   top: -40px;
 }
 
-.myForm {
-  color: white;
-  font-family: 'Roboto-Bold', sans-serif;
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
 }
 
 body {
