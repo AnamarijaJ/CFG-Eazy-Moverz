@@ -13,32 +13,7 @@
 
 
 <body>
-       <form id = "myForm" class = "form">
-      <label for = "name">Name</label>
-      <input type = "text" name="name" id ="name">
-
-      <label for = "email">Email</label>
-      <input type = "email" name ="email" id = "email">
-
-      <label for ="Service">Service</label>
-      <input type = "Service" name ="Service" id ="Service">
-
-      <label for = "date">Date</label>
-      <input type = "date" name = "date"  id = "date">
-
-      <button type ="submit">Submit</button>
-    </form>
-<script>
-const myForm= document.getElementById("myForm");
-
-myForm.addEventListener("submit",(e){
-e.preventDefault();
-console.log("Form has been submitted");
-});
-
-
-
-</script>
+       
   <div>
     <div class="container">
       <div class="row">
@@ -100,8 +75,32 @@ console.log("Form has been submitted");
           <div class=paragraph <p1>Welcome to our booking page. Please fill out the boxes below in order to make an inquiry. We will contact you as soon as possible to discuss pricing and service you require.</p1><br>
           </div>
 
+         <form id = "myForm" class = "form">
+      <label for = "name">Name</label>
+      <input type = "text" name="name" id ="name">
 
-         
+      <label for = "email">Email</label>
+      <input type = "email" name ="email" id = "email">
+
+      <label for ="Service">Service</label>
+      <input type = "Service" name ="Service" id ="Service">
+
+      <label for = "date">Date</label>
+      <input type = "date" name = "date"  id = "date">
+
+      <button type ="submit">Submit</button>
+    </form>
+<script>
+const myForm= document.getElementById("myForm");
+
+myForm.addEventListener("submit",(e){
+e.preventDefault();
+console.log("Form has been submitted");
+});
+
+
+
+</script>
 
 
 
