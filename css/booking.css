@@ -77,6 +77,10 @@ main {
   background-color: rgb(215, 54, 61);
 }
 
+.dropdown-item:hover {
+  background-color: #E08E8E;
+}
+
 .adress {
   text-align: left;
 }

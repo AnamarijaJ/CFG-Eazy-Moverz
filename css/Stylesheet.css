@@ -1,8 +1,8 @@
 #container {
-  width: 800px;
-  height: 900px;
-  background-image: url("images/CrownEazyMoverz.png");
-  background-size: 800px 800px;
+  width: 150px;
+  height: 150px;
+  background-image: <img src="images/CrownEazyMoverz.png"  alt="description">;  
+  background-size: 500px 500px;
   background-repeat: no-repeat;
   margin-left: 500vw;
   margin-top: 250vh;
@@ -10,13 +10,13 @@
 
 .splash {
   position: fixed;
-  background-image: url("images/CrownEazyMoverz.png");
-  background-size: 300px;
+  background-image: <img src="images/CrownEazyMoverz.png"  alt="description">;  
+  background-size: 150px;
   background-repeat: no-repeat;
   top: 150px;
-  left: 550px;
-  width: 70%;
-  height: 70%;
+  left: 600px;
+  width: 40%;
+  height: 40%;
   opacity: 0;
   z-index: 200;
   animation: fadeIn 1s ease-in forwards;
@@ -25,8 +25,8 @@
 .splash.display-none {
   position: fixed;
   opacity: 0;
-  background-image: url("images/CrownEazyMoverz.png");
-  background-size: 300px;
+  background-image: <img src="images/CrownEazyMoverz.png"  alt="description">;  
+  background-size: 150px;
   background-repeat: no-repeat;
   top: 180px;
   left: 550px;
@@ -82,8 +82,8 @@
   text-shadow: 5px 1px 46px #2f6627;
   position: absolute;
   opacity: 0;
-  margin-top: 520px;
-  margin-left: 570px;
+  margin-top: 900px;
+  margin-left: 970px;
   animation: fadeIn 1s ease-in forwards;
   z-index: -10;
 }
