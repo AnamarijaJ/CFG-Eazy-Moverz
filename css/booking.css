@@ -31,7 +31,7 @@ li {
   top: -40px;
 }
 
-input[type=text] {
+.MyForm {
   width: 10%;
   padding: 12px 20px;
   margin: 8px 0;
