@@ -13,29 +13,7 @@
 
 
 <body>
-  <form id="myForm" class="form">
-    <label for="name">Name</label>
-    <input type="text" name="name" id="name">
 
-    <label for="email">Email</label>
-    <input type="email" name="email" id="email">
-
-    <label for="Service">Service</label>
-    <input type="Service" name="Service" id="Service">
-
-    <label for="date">Date</label>
-    <input type="date" name="date" id="date">
-
-    <button type="submit">Submit</button>
-  </form>
-  <script>
-    const myForm = document.getElementById("myForm");
-
-    myForm.addEventListener("submit", (e) {
-      e.preventDefault();
-      console.log("Form has been submitted");
-    });
-  </script>
   <div>
     <div class="container">
       <div class="row">
@@ -69,16 +47,18 @@
                       <a class="nav-link" href="booking.html">Booking</a>
                     </li>
                     <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="services.html id=" navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Services
                       </a>
                       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="services.html#moving">Moving</a>
-                        <a class="dropdown-item" href="services.html#landscaping">Landscaping</a>
-                        <a class="dropdown-item" href="services.html#cleaning">Cleaning</a>
-                        <a class="dropdown-item" href="services.html#renovation">Renovation</a>
+                        <a class="dropdown-item" href="#">Moving</a>
+                        <a class="dropdown-item" href="#">Landscaping</a>
+                        <a class="dropdown-item" href="#">Cleaning</a>
+                        <a class="dropdown-item" href="#">Renovation</a>
                       </div>
                     </li>
+
+
                   </ul>
                 </div>
 
@@ -95,22 +75,32 @@
           <div class=paragraph <p1>Welcome to our booking page. Please fill out the boxes below in order to make an inquiry. We will contact you as soon as possible to discuss pricing and service you require.</p1><br>
           </div>
 
+         <form id = "myForm" class = "form">
+      <label for = "name">Name</label>
+      <input type = "text" name="name" id ="name">
 
-          <div class=list <form action="/action_page.php" method="get" id="form1">
-            <label for="fname">First Name:</label><br>
-            <input type="text" id="fname" name="fname"><br>
-            <label for="lname">Last Name:</label><br>
-            <input type="text" id="lname" name="lname"><br>
-            <label for="email">Email:</label><br>
-            <input type="text" id="email" name="email"><br>
-            <label for="service">Service Needed:</label><br>
-            <input type="text" id="sneeded" name="sneeded"><br>
-            <label for="date">Date:</label><br>
-            <input type="text" id="date" name="date"><br>
-          </div>
-          </form>
-          <div class=button <button type="submit" form="form1" value="Submit">Submit</button>
-          </div>
+      <label for = "email">Email</label>
+      <input type = "email" name ="email" id = "email">
+
+      <label for ="Service">Service</label>
+      <input type = "Service" name ="Service" id ="Service">
+
+      <label for = "date">Date</label>
+      <input type = "date" name = "date"  id = "date">
+
+      <button type ="submit">Submit</button>
+    </form>
+<script>
+const myForm= document.getElementById("myForm");
+
+myForm.addEventListener("submit",(e){
+e.preventDefault();
+console.log("Form has been submitted");
+});
+
+
+
+</script>
 
 
 
@@ -154,10 +144,3 @@
 
           <!-- my JS -->
           <script src="js/form.js"></script>
-</body>
-
-
-
-
-
-</html>
