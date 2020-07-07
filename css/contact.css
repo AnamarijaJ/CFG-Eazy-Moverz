@@ -79,8 +79,12 @@ nav {
 }
 
 #contact .text {
-  text-align: center;
-  padding-bottom: 5%;
+  /* text-align: center; */
+  padding-bottom: 2%;
+  padding-left: 0;
+  margin-left: 0;
+  font-size: 2.5rem;
+  text-decoration: underline;
 }
 
 /* footer */
@@ -105,6 +109,10 @@ footer h4 {
 .sm-icon {
   margin-right: 5%;
   color: #FFF;
+}
+
+.sm-icon:hover {
+  color: #000;
 }
 
 a {
