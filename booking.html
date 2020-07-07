@@ -13,7 +13,7 @@
 
 
 <body>
-       <form id = "myForm" class = "form">
+        <form id = "myForm" class = "form">
       <label for = "name">Name</label>
       <input type = "text" name="name" id ="name">
 
@@ -23,9 +23,18 @@
       <label for = "date">Date</label>
       <input type = "date" name = "date"  id = "email">
       <button type ="submit">Submit</button>
-
-
     </form>
+<script>
+const myForm= document.getElementById("myForm");
+
+myForm.addEventListener("submit",(e){
+e.preventDefault();
+console.log("Form has been submitted");
+});
+
+
+
+</script>
   <div>
     <div class="container">
       <div class="row">
