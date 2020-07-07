@@ -13,44 +13,41 @@
 
 
 <body>
-       <form id = "myForm" class = "form">
-      <label for = "name">Name</label>
-      <input type = "text" name="name" id ="name">
+  <form id="myForm" class="form">
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name">
 
-      <label for = "email">Email</label>
-      <input type = "email" name ="email" id = "email">
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email">
 
-      <label for ="Service">Service</label>
-      <input type = "Service" name ="Service" id ="Service">
+    <label for="Service">Service</label>
+    <input type="Service" name="Service" id="Service">
 
-      <label for = "date">Date</label>
-      <input type = "date" name = "date"  id = "date">
+    <label for="date">Date</label>
+    <input type="date" name="date" id="date">
 
-      <button type ="submit">Submit</button>
-    </form>
-<script>
-const myForm= document.getElementById("myForm");
+    <button type="submit">Submit</button>
+  </form>
+  <script>
+    const myForm = document.getElementById("myForm");
 
-myForm.addEventListener("submit",(e){
-e.preventDefault();
-console.log("Form has been submitted");
-});
-
-
-
-</script>
+    myForm.addEventListener("submit", (e) {
+      e.preventDefault();
+      console.log("Form has been submitted");
+    });
+  </script>
   <div>
     <div class="container">
       <div class="row">
 
         <div class="container-fluid">
-       
+
           <!-- NAVBAR  -->
 
           <section id="main">
             <div class="container-fluid">
 
-              
+
               <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
                 <a class="navbar-brand" href="landing.html">Eazy Moverz</a>
 
@@ -72,18 +69,16 @@ console.log("Form has been submitted");
                       <a class="nav-link" href="booking.html">Booking</a>
                     </li>
                     <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <a class="nav-link dropdown-toggle" href="services.html id=" navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Services
                       </a>
                       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Moving</a>
-                        <a class="dropdown-item" href="#">Landscaping</a>
-                        <a class="dropdown-item" href="#">Cleaning</a>
-                        <a class="dropdown-item" href="#">Renovation</a>
+                        <a class="dropdown-item" href="services.html#moving">Moving</a>
+                        <a class="dropdown-item" href="services.html#landscaping">Landscaping</a>
+                        <a class="dropdown-item" href="services.html#cleaning">Cleaning</a>
+                        <a class="dropdown-item" href="services.html#renovation">Renovation</a>
                       </div>
                     </li>
-
-
                   </ul>
                 </div>
 
