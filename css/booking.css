@@ -31,7 +31,7 @@ li {
   top: -40px;
 }
 
-input[type=name] {
+input[type=email] {
   width: 25%;
   box-sizing: border-box;
   height: 25%;
