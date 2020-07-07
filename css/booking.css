@@ -36,6 +36,7 @@ input[type=email] {
   box-sizing: border-box;
   height: 25%;
   border: 5px;
+  top: 300px;
 }
 
 input[type=Service] {
