@@ -15,8 +15,8 @@
   background-repeat: no-repeat;
   top: 150px;
   left: 600px;
-  width: 40%;
-  height: 40%;
+  width: 70%;
+  height: 70%;
   opacity: 0;
   z-index: 200;
   animation: fadeIn 1s ease-in forwards;
