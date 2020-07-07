@@ -34,6 +34,8 @@ li {
 input[type=text] {
   width: 25%;
   box-sizing: border-box;
+  height: 25%;
+  border: 5px;
 }
 
 body {
