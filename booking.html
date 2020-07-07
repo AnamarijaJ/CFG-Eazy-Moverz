@@ -13,25 +13,19 @@
 
 
 <body>
-       <form id = "name-form">
-    <p>
-      <label>Full Name</label>:<br>
-      <input type = "text" name = "fullname">
-    </p>
-    <p>
-      <input type = "submit" value = "submit">
-    </p>
-    </form>
-<p id = "result"></p>
-<script>
-var form = document.getElementById('name-fora');
-form.onsubmit = function(event) {
-  event.preventDefault();
-console.log(form.fullName.value);
-};
+       <form id = "myForm" class = "form">
+      <label for = "name">Name</label>
+      <input type = "text" name="name" id ="name">
 
-</script>
-  
+      <label for = "email">Email</label>
+      <input type = "email" name ="email" id = "email">
+
+      <label for = "date">Date</label>
+      <input type = "date" name = "date"  id = "email">
+      <button type ="submit">Submit</button>
+
+
+    </form>
   <div>
     <div class="container">
       <div class="row">
