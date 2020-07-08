@@ -31,7 +31,6 @@ li {
   top: -40px;
 }
 
-
 body {
   background-color: rgb(215, 54, 61);
 }
@@ -48,8 +47,6 @@ body {
   color: white;
 }
 
-
-
 .nav-item {
   font-size: 1.3rem;
   padding: 0 15px;
@@ -64,6 +61,17 @@ body {
   background-color: #E08E8E;
 }
 
+#booking {
+  margin-top: 3%;
+  padding-left: 15.9%;
+}
+
+.booking {
+  padding-bottom: 4%;
+  text-decoration: underline;
+  color: white;
+}
+
 .adress {
   text-align: left;
 }
@@ -76,6 +84,7 @@ body {
 
 footer {
   padding-top: 12%;
+  padding-left: 4.9%;
 }
 
 footer h4 {
@@ -102,6 +111,131 @@ footer h4 {
 
 .fa-whatsapp-square {
   color: #25D366;
+}
+
+.copyright {
+  text-align: center;
+  padding-top: 5%;
+  color: white;
+}
+
+* whole page*/ body {
+  font-family: 'Roboto-Medium', sans-serif;
+  background-color: rgb(215, 54, 61);
+  color: #FFF;
+}
+
+h1 {
+  font-family: 'Roboto-Bold', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: 'Roboto-Medium';
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+  padding-top: 0;
+}
+
+h3 {
+  font-family: 'Roboto-Bold', sans-serif;
+  font-weight: bold;
+}
+
+h4,
+h6 {
+  font-family: 'Roboto-Medium', sans-serif;
+}
+
+/* main section */
+#main {
+  background-color: rgb(215, 54, 61);
+  color: rgb(255, 255, 255);
+}
+
+nav {
+  background-color: rgb(215, 54, 61);
+}
+
+.container-fluid {
+  padding: 2% 15% 2%;
+}
+
+.container {
+  margin-top: 4.5%;
+}
+
+.navbar-brand {
+  font-family: 'Roboto-Bold', sans-serif;
+  font-size: 2.3rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  font-size: 1.3rem;
+  padding: 0 15px;
+}
+
+.dropdown-menu {
+  background-color: rgb(215, 54, 61);
+}
+
+.dropdown-item:hover {
+  background-color: #E08E8E;
+}
+
+.main-text {
+  padding-top: 2.3%;
+}
+
+label {
+  color: white;
+}
+
+.paragraph {
+  padding-bottom: 5%;
+  font-size: 1.3rem;
+}
+
+/* footer */
+.adress {
+  text-align: left;
+  color: white;
+}
+
+.footer-img img {
+  padding-top: 1.7%;
+  width: 100%;
+  height: 100%;
+}
+
+footer h4 {
+  padding-top: 4%;
+}
+
+.social-media {
+  padding-top: 2%;
+}
+
+.sm-icon {
+  margin-right: 5%;
+  color: #FFF;
+}
+
+.sm-icon:hover {
+  color: #000;
+}
+
+a {
+  color: #FFF;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #000;
 }
 
 .copyright {
